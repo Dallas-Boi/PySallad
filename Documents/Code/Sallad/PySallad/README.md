@@ -1,0 +1,1 @@
+Welcome to Sallad. This is a Tool that Encrypts Symbols, letter, and Numbers and generates IDs, and Seeds with ease.
