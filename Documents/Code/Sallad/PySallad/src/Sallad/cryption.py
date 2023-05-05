@@ -45,7 +45,7 @@ class cryption:
         new_data = ""
         give_str = string
         space = 0
-        
+
         # Error Handler to check if the given string has been encrypted or has a integer at the end
         try:
             space = int(give_str[len(give_str)-1:len(give_str)]) # Sets space to the number at the end of the encrypted string
@@ -68,8 +68,3 @@ class cryption:
                         index = len(valid_letters) - letter
                         new_data += valid_letters[index-space:index-(space-1)]   
         return new_data # Returns the decrypted string
-    
-
-word = cryption.encrypt("Hello", 1)
-print(word)
-print(cryption.decrypt(word))
